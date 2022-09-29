@@ -1,0 +1,6 @@
+./assets
+./models
+./package-lock.json
+./package.json
+./config/config.env
+./config/database.sql
