@@ -37,6 +37,25 @@ Features: <br>
 # 3 APP COMPONENETS 
 
        
+## 1. SeConfig/
++ Postgres/
+  + database.sql <br>
+    
+     ```
+     -- Create DB 
+     CREATE DATABASE test_db;
+
+     -- Create table 
+     CREATE TABLE test_tb(
+     test_tb_id SERIAL PRIMARY KEY,
+     test_description VARCHAR(255)
+     );
+     ```
+    
+  + db.js
+
++ config.env
+
 ## 2. Handlers/
 #### (errorHandlers.js)
     
@@ -45,12 +64,8 @@ Desc:  catch url string errors
 
 Handler 5:  notFound <br>
 Desc:   404 Page Error
-    
-    
-## 4. Server.js:
-
    
-## 7. Routes/
+## 3. Routes/ Controllers
 #### 7.1 main.route.js:
     
      ```
@@ -87,7 +102,7 @@ Desc:   404 Page Error
      ```
     
     
-## 10. .env.js:        
+## 4. .env.js:        
 + NODE_ENV=
 + ENV_PORT=
 + POSTGRES_SER=""
@@ -99,9 +114,9 @@ Desc:   404 Page Error
 
       
       
-## 11. gitignore.js:
+## 5. gitignore.js:
 + ./package-lock.json
 + ./package.json
 + .env
     
-## 12. Server.js:
+## 5. Server.js:
