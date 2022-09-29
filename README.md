@@ -1,6 +1,6 @@
-# Data Manager MERN Stack
+# PERN-App-Basic
 <p>
-    Simple pern app that connects to Postgres Database
+    Simple pern backend application that connects to Postgres Database
 </p>
 
 Features: <br>
@@ -21,6 +21,7 @@ Features: <br>
 + "dotenv":
 + "express"
 + "pg"
++ "morgan"
 
 <b>Dev dependencies:<b> 
 
@@ -103,14 +104,14 @@ Desc:   404 Page Error
     
     
 ## 4. .env.js:        
-+ NODE_ENV=
-+ ENV_PORT=
-+ POSTGRES_SER=""
-+ POSTGRES_HOST=+
-+ POSTGRES_PASSWORD=""
-+ POSTGRES_DB=""
-+ POSTGRES_DB_TB =""
-+ PGPORT= 
++  NODE_ENV=
++  ENV_PORT=
++  POSTGRES_SER=""
++  POSTGRES_HOST=+
++  POSTGRES_PASSWORD=""
++  POSTGRES_DB=""
++  POSTGRES_DB_TB =""
++  PGPORT= 
 
       
       
@@ -119,4 +120,5 @@ Desc:   404 Page Error
 + ./package.json
 + .env
     
-## 5. Server.js:
+## 6. Server.js:
+## 7. app.js:
